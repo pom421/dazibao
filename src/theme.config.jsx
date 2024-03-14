@@ -9,9 +9,11 @@ const theme = {
       {meta.author && <meta name="author" content={meta.author} />}
     </>
   ),
+  dateFormatter: date => `Édité le ${date.toLocaleDateString()}`,
   readMore: <>→</>,
   postFooter: null,
   darkMode: false,
+  titleSuffix: " - Dazibao"
   // navs: [
   //   {
   //     url: "https://github.com/shuding/nextra",
