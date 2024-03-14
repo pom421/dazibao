@@ -1,5 +1,5 @@
 const theme = {
-  footer: <p>Po Mauguet - 2024</p>,
+  footer: <p>Po Mauguet - 2024 - Made with Nextra</p>,
   head: ({ title, meta }) => (
     <>
       {meta.description && (
