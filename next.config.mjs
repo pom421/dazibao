@@ -3,4 +3,11 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-export default nextConfig;
+import nextra from "nextra";
+
+const withNextra = nextra({
+  theme: "nextra-theme-blog",
+  themeConfig: "./src/theme.config.jsx",
+});
+
+export default withNextra(nextConfig);
